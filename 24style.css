@@ -1,0 +1,50 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+p {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+ display:inline-block;
+background-color:rgb(28, 9, 206);
+padding: 15px 35px;
+color: rgb(246, 248, 250);
+text-decoration: none;
+margin: auto;
+}
+
+a {
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+div {
+   background-color: rgb(91, 156, 212);
+   margin-left: 50;
+
+}
+
+
+ div {
+    list-style: none;
+    margin-left: 25px;
+    float; left;
+}
+
+body {
+    background-image:url("https://www.dentalgest.com/wp-content/uploads/2011/10/decoration_cabinet.jpg");
+}

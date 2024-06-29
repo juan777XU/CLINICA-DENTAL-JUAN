@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: rgb(58, 146, 218);
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+img{
+width: 150px;
+margin-left: 350px;
+
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul li {
+list-style:none;
+margin-left: 60px;
+padding: 25pz 0;
+float:left;
+position: relative;
+text-align: center;
+}
+
+nav ul li a{
+    background-color: rgb(9, 38, 71);
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+nav ul li a {
+text-decoration:none;
+color:rgb(219, 219, 230);
+font-weight:bol;
+
+}
+
+nav ul li a::before{
+    display: block;
+    content: "";
+    width:0%;
+    background: #444444;
+    height: 5px;
+    top:0px;
+    position: absolute;
+    transition:width: 1s;
+}
+
+nav ul li a :hover::before {
+    width:100%;
+}
+
+body {
+background-image:url("https://www.propdental.es/wp-content/uploads/2020/03/dentista-fabra-puig-938x1024.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-position: 20px 20px;
+background:attachment:fixed;
+min: height 100vh;
+object-fit: cover;
+}
+
+body {
+  width: 100%;  
+  height:100%
+  object-fit: cover;
+}
+
+.texto {
+    text-align: center;
+    color: rgb(1, 12, 29);
+    font-family: "Calibri";
+}
+
